@@ -1,0 +1,78 @@
+<pre class='metadata'>
+Title: Plan for Concurrency Technical Specification Version 2
+Shortname: D2559
+Revision: 0
+Status: D
+Group: WG21
+Audience: WG21
+Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+URL: https://wg21.link/P2559
+!Source: <a href="https://github.com/brycelelbach/wg21_p2559_plan_for_concurrency_ts_v2/blob/main/plan_for_concurrency_ts_v2.bs">GitHub</a>
+Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2559_plan_for_concurrency_ts_v2/issues
+Metadata Order: Editor, This Version, Source, Issue Tracking, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+Default Biblio Display: direct
+</pre>
+
+<style>
+table, th, tr, td {
+  border: 2px solid black !important;
+}
+@media (prefers-color-scheme: dark) {
+  table, th, tr, td {
+    border: 2px solid white !important;
+  }
+}
+</style>
+
+# Introduction # {#introduction}
+
+We've been slowly filling the Concurrency Technical Specification (TS) version
+  2 for approximately six years.
+It's time to move this work to publication so we can get field experience with
+  the contents of the TS.
+
+# Scope # {#scope}
+
+The following content is already in the Concurrency TS v2 Working Draft [[N4895]]:
+
+* [[P1121R3]]: Hazard Pointers
+* [[P1122R4]]: Read-Copy-Update (RCU) Data Structures
+
+The following content has been approved by the Concurrency and Library Evolution
+  groups for the Concurrency TS v2 and is awaiting Library review:
+
+* [[P0290R2]]: `synchronized_value`
+* [[P0561R6]]: `<experimental/snapshot>` - Deferred Reclamation RAII Interface
+* [[P1478R7]]: Byte-wise Atomic `memcpy`
+* [[P2396R0]]: Concurrency TS 2 Fixes
+
+The following content has been approved by the Concurrency group for the
+  Concurrency TS v2 and is awaiting Library Evolution review:
+
+* [[P1202R4]]: Asymmetric Fences
+
+The following content has not yet been reviewed by the Concurrency group, but
+  it should be included in the Concurrency TS v2:
+
+* [[P2535R0]]: Message Fences
+
+The following content has been approved by the Concurrency group for the
+  Concurrency TS v2 and was initially reviewed by Library Evolution years ago,
+  but revisions are needed and the content is no longer being actively developed.
+This content should not be included in the Concurrency TS v2:
+
+* [[P1958R0]]: Concurrent Buffer Queue
+* [[P0260R4]]: Concurrent Queues
+* [[P0261R4]]: Distributed Counters
+
+# Timeline # {#timeline}
+
+* 2022-2H: Complete Concurrency and Library Evolution review of all Concurrency
+  TS v2 content.
+* 2023-1H: Complete Library review of all Concurrency TS v2 content.
+* 2023-2H: Publish the Concurrency TS v2.
+

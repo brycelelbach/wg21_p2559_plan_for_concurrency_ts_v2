@@ -1,8 +1,8 @@
 <pre class='metadata'>
 Title: Plan for Concurrency Technical Specification Version 2
-Shortname: D2559
+Shortname: P2559
 Revision: 0
-Status: D
+Status: P
 Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
@@ -72,7 +72,7 @@ This content should not be included in the Concurrency TS v2:
 # Timeline # {#timeline}
 
 * 2022-2H: Complete Concurrency and Library Evolution review of all Concurrency
-  TS v2 content.
+    TS v2 content.
 * 2023-1H: Complete Library review of all Concurrency TS v2 content.
 * 2023-2H: Publish the Concurrency TS v2.
 

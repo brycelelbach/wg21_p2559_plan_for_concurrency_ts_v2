@@ -37,37 +37,19 @@ It's time to move this work to publication so we can get field experience with
 
 # Scope # {#scope}
 
-The following content is already in the Concurrency TS v2 Working Draft [[N4895]]:
+The following content is already in the Concurrency TS v2 Working Draft
+  [[N4895]]:
 
 * [[P1121R3]]: Hazard Pointers
 * [[P1122R4]]: Read-Copy-Update (RCU) Data Structures
 
-The following content has been approved by the Concurrency and Library Evolution
-  groups for the Concurrency TS v2 and is awaiting Library review:
+We should apply the following papers to the Concurrency TS v2 Working Draft
+  [[N4895]] and then publish it:
 
 * [[P0290R2]]: `synchronized_value`
-* [[P0561R6]]: `<experimental/snapshot>` - Deferred Reclamation RAII Interface
 * [[P1478R7]]: Byte-wise Atomic `memcpy`
 * [[P2396R0]]: Concurrency TS 2 Fixes
-
-The following content has been approved by the Concurrency group for the
-  Concurrency TS v2 and is awaiting Library Evolution review:
-
 * [[P1202R4]]: Asymmetric Fences
-
-The following content has not yet been reviewed by the Concurrency group, but
-  it should be included in the Concurrency TS v2:
-
-* [[P2535R0]]: Message Fences
-
-The following content has been approved by the Concurrency group for the
-  Concurrency TS v2 and was initially reviewed by Library Evolution years ago,
-  but revisions are needed and the content is no longer being actively developed.
-This content should not be included in the Concurrency TS v2:
-
-* [[P1958R0]]: Concurrent Buffer Queue
-* [[P0260R4]]: Concurrent Queues
-* [[P0261R4]]: Distributed Counters
 
 # Timeline # {#timeline}
 
@@ -76,3 +58,8 @@ This content should not be included in the Concurrency TS v2:
 * 2023-1H: Complete Library review of all Concurrency TS v2 content.
 * 2023-2H: Publish the Concurrency TS v2.
 
+# Changelog # {#changelog}
+
+* R0: Initial proposal.
+* R1: Updated to the scope approved by the Concurrency and Parallelism Study
+    Group and Library Evolution.
